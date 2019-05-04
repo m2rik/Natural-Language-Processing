@@ -1,5 +1,9 @@
 # Natural-Language-Processing
-## Sentiment Analysis
+# Spam Detection
+
+
+
+# Sentiment Analysis
 
 ## STEP 1 - Normalize
  -Lemitize the words
@@ -19,10 +23,13 @@ so TFIDF will give very low score to such a words. And Good score to the unique 
 ## STEP 3 - Smoothing
 Just to avoid 0 multiplication we will do smoothing 
 
-## STEP 4
+## STEP 4 - Modelling
 Apply a Naive bayes model on BOW
 
 ## STEP 5 - Additional Steps
 Finding emotions from 'AND' 
 If there are some emotion base words that does not contain in Train set, but we can find out using AND method
 E.g Service is Nice and XYZ. # here XYZ meight be positive
+
+
+# Language Modelling
